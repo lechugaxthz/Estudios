@@ -1,4 +1,5 @@
 ﻿using System;
+using Clases;
 
 namespace ConsoleAplication1
 {
@@ -144,7 +145,7 @@ namespace ConsoleAplication1
             {
                 Console.WriteLine("indica valor de X e Y (con enter de por medio)\n");
                 double r1 = Convert.ToDouble(Console.ReadLine());
-                double i1 = Convert.ToDouble(Console.ReadLine());
+                double i1 = Convert.ToDouble(Console.ReadLine(p));
                 Cardinal a = new() { X = r1, Y = i1 };
 
                 Console.WriteLine("indica valor X e Y (con enter de por medio) de la segunda variable\n");
@@ -155,6 +156,30 @@ namespace ConsoleAplication1
                 Cardinal c = a + b;
 
                 Console.WriteLine($"la respuesta es ({c.X} , {c.Y})\nDe longitud {c.Longitud()}");
+
+                /* Equivalencias */
+                Persona lechu1 = new() {Name = "Lautaro", Age = 24, Clothes = "alguna prenda"};
+                Persona lechu2 = new() {Name = "Lautaro", Age = 24, Clothes = "alguna prenda"};
+                Persona scarlette = new() {Name = "Scarlette", Age = 20, Clothes = "alguna prenda"};
+
+                /* 
+                    si bien vemos que tienen (lechu 1 y 2) los mismos valores,
+                    en cuanto a punteros, tienen direcciones diferentes
+                */
+                Console.WriteLine($"lechu1 es igual a lechu2 (con Equals)? {lechu1.Equals(lechu2)}") // falso
+
+                /* 
+                    En cambio si vemos la clase, hemos hecho una método el cual
+                    compara los valores internos de cada uno (exeptuando la ropa)
+                    para ver si son la misma persona
+                */
+                Console.WriteLine($"lechu1 es igual lechu2 (con método)? {lechu1.EqualsInPerson(lechu2)}") // true
+                Console.WriteLine($"lechu1 es igual scarlette (con método)? {lechu1.EqualsInPerson(scarlette)}") // falso
+                // este ultimo da falso porqeu no son la misma persona.
+
+
+
+
             }
         }
 
@@ -202,28 +227,24 @@ namespace ConsoleAplication1
 
         }
 
-        public class Equalss
-        {
-            /* 
-                la igualdad entre otras formas ya la conocemos
-                como entre tipos primitivos.
-                pero en lo que consta a tipos no primitivos... :
-            */
-            /* igualdad entre clases */
-            public class Person
-            {
-                public required string Name { get; set; }
-                public required int Age { get; set; }
-                public required string Clothes { get; set; }
+        /* Equivalencias */
+        /* 
+            la igualdad entre otras formas ya la conocemos
+            como entre tipos primitivos.
+            pero en lo que consta a tipos no primitivos... :
+        */
+        /* igualdad entre clases */
+        /* 
+            las clases no pueden ser evaluadas por igualdad a 
+            menos que sean la misma (es decir, que tengan el la
+            misma direccion de memoria). si queremos comparar valores
+            de las clases de por sí, debemos implementar metodos propios
+            ya que por <clase 1>.Equeals(<clase 2>) no nos va a funcionar
+            porque no tienen la misma direccion de memoria
 
-                public override bool EqualsInPerson (object obj)
-                {
-                    Person? person = obj as Person;
-
-                    return 
-                }
-            }
-        }
+            en cambio, implementar, como dije, metodos dentro de nuestra 
+            <clase> que nos permita pasale una segunda <clase> para comparar
+        */
 
 
     }
