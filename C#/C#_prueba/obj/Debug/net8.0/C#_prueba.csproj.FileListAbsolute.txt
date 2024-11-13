@@ -1,0 +1,14 @@
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\bin\Debug\net8.0\C#_prueba.exe
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\bin\Debug\net8.0\C#_prueba.deps.json
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\bin\Debug\net8.0\C#_prueba.runtimeconfig.json
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\bin\Debug\net8.0\C#_prueba.dll
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\bin\Debug\net8.0\C#_prueba.pdb
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.AssemblyInfoInputs.cache
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.AssemblyInfo.cs
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.csproj.CoreCompileInputs.cache
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.dll
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\refint\C#_prueba.dll
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.pdb
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.genruntimeconfig.cache
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\ref\C#_prueba.dll
