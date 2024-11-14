@@ -12,3 +12,4 @@ C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\refint\C#_prueba
 C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.pdb
 C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.genruntimeconfig.cache
 C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\ref\C#_prueba.dll
+C:\Users\lauta\Documents\estudios\C#\C#_prueba\obj\Debug\net8.0\C#_prueba.sourcelink.json
