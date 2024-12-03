@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Estudios.C1","l":"C1"},{"p":"Estudios.C3","l":"C3"},{"p":"Estudios.C4","l":"C4"},{"p":"Estudios.C6","l":"C6"},{"p":"Estudios.C1","l":"Member"},{"p":"Estudios.C3","l":"PrivatePerson"},{"p":"Estudios.C3","l":"PublicPerson"},{"p":"Estudios.C1","l":"Team"}];updateSearchResults();

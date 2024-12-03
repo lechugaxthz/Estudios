@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C4.css">
+    <title>C4 css :D</title>
+</head>
+
+<body>
+    <form>
+        Phone: <input type="tel" class="example">
+        E-mail: <input id="a-habilitar" type="email" disabled>
+        Password: <input type="password">
+    </form>
+    <button type="button" id="activa/desactiva" onclick="turn()">activa</button>
+    <h3>Background is blue if the input is focused .</p>
+        <div>
+            <input type="text">
+        </div>
+
+        <script>
+            const turn = () => {
+                const inp = document.getElementById('a-habilitar');
+                const button = document.getElementById('activa/desactiva')
+                console.log(inp);
+                console.log(button);
+                
+                
+                if (inp.disabled) {
+                    console.log('entro');
+                    
+                    inp.ariaDisabled = null;
+                    button.textContent = 'desactiva';
+                } else {
+                    console.log('entro1');
+
+                    inp.ariaDisabled;
+                    button.textContent = 'activa';
+                }
+                inp.disabled = !inp.disabled
+
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+div,
+span {
+    text-shadow:
+        yellow 0 0 3px,
+        green 4px 4px 10px;
+    /* 
+        shadows son del tipo
+        <color> <p en x> <p en y> <p en z>
+    */
+}

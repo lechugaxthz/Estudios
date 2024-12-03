@@ -1,0 +1,93 @@
+:root {
+    --backgorund-img: url('https://www.shutterstock.com/image-vector/brush-painted-texture-rectangle-quote-260nw-2487401105.jpg');
+}
+
+div {
+    margin: 0 0 20px 0;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.div1 {
+    background-image: var(--backgorund-img);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.div1 {
+    background-size: contain;
+    background-clip: text;
+    /* color de la letra */
+    color: transparent;
+    /* adjunta la imagen al bg del texto */
+    -webkit-background-clip: text;
+    /* define el contorno del texto en <medida> <color> */
+    -webkit-text-stroke: 0.5px black;
+    /* 
+        sombreado:
+            puede ser trabajadod multiples como lo está presente.
+            consta de: 
+                <p en x> <p en y> <p en z> <color>
+            si son multiples podes definir volores en varias direcciones
+    */
+    text-shadow:
+        2px 2px 30px rgba(0, 0, 0, 0.1),
+        -2px -2px 30px rgba(0, 0, 0, 0.1),
+        2px -2px 30px rgba(0, 0, 0, 0.1),
+        -2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+.div2 {
+    /* 
+        linear-gradient
+            <to...> <secuencia de colores>
+            to...: right, top, down, left
+                tambien acepta combinaciones
+                    left <top, down>
+                    right <top, down>
+            colores:
+                puede ser uno o multiples colores
+
+            
+        
+    */
+
+    background: linear-gradient(to right, yellow, orange, red, aqua, indigo, violet);
+}
+
+.div3 {
+    /* 
+        radiant-gradient
+            toma los colores designados de
+                <centro> -> <exterior> 
+            teniendo la posibilidad de indicar mas de 2 colores
+    */
+    background: radial-gradient(red, blue);
+}
+
+.div4 {
+    /* 
+        tiene metodos como...
+            circle o ellipce (ellipce -> default)
+            farthers-corner||side, closest-corner||side
+            posicion del gradiente central. siempre parte del centro a perisferia        
+    */
+    background: radial-gradient(circle farthest-corner at top left, red, blue);
+}
+
+.div5 {
+    background: repeating-radial-gradient(red, red 10%, white 10%, white 20%);
+}
+
+.div6 {
+    
+}
+
+.div7 {}
+
+.div8 {}
+
+.div9 {}
+
+.div10 {}

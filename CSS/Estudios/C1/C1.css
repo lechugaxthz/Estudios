@@ -1,0 +1,30 @@
+/* C1.1 */
+h1 {
+    color: green;
+    text-decoration: underline;
+}
+
+p {
+    color: #006600;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p.green {
+    color: #006600;
+}
+
+/* C1.2 */
+/* imports css by url */
+@import url(https://fonts.googleapis.com/css);
+
+p {
+    /* Lato it's from fonts.googleapi.com/css */
+    font-family: Lato;
+}
+
+/* C1.6 */
+li {
+    list-style-type: square;
+    list-style-position: inside;
+}

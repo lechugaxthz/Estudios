@@ -1,0 +1,17 @@
+/* solo a los inputs que no tengan... */
+input:not([disabled]):not(.example) {
+    background-color: aqua;
+}
+
+div {
+    height: 80px;
+}
+
+input{
+    margin: 30px;
+}
+
+/* cuando el cursor esté por encima de... */
+div:hover {
+    background-color: aqua;
+}
